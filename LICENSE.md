@@ -8,6 +8,7 @@
 | --- | --- |
 | **CC BY-SA 4.0** | 11 款，见 `manifest.json` 中 `"license": "CC-BY-SA-4.0"` |
 | **MIT** | Aerocolor IV、Eterna 500T |
+| **未核实** | Amber、BW400、Fade、Classic Chrome、Classic Negative、Kodak 5218→2395（公开免费包，上游条款未记录） |
 
 许可全文见 `licenses/`。逐款对应与署名见 `NOTICE.md`。
 

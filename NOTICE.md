@@ -47,6 +47,22 @@
 
 本仓库的 LUT 由 GRKit 的**源配方重建**，不是复制其发布的拟合参数。原始来源记录见 `docs/GRKit-SOURCES.json`，上游声明见 `licenses/GRKit-NOTICE.md` 与 `licenses/GRKit-MIT-LICENSE.txt`。
 
+
+## 六款公开免费 LUT（来源未逐项核实）
+
+以下 6 款由本仓库作者提供，来自**公开免费分发的 LUT 包**。与原包的对应上游链接、作者署名及再分发条款**未在仓库内逐项记录**：
+
+- Amber
+- BW400
+- Fade
+- Classic Chrome
+- Classic Negative
+- Kodak 5218 → 2395
+
+它们在 `manifest.json` 中标记为 `"license": "unverified-public"`，按**现状**提供，适用于个人学习与测试。商业使用或再分发前，请自行核实原始来源。
+
+若你是上述任一文件的原始作者，希望更正署名或要求移除，请开 issue，我们会尽快处理。
+
 ## 图标
 
 `icons/` 中的 216×204 PNG 为 GR Mod Origin 槽位图标，由本仓库作者制作/整理，随对应 LUT 一并分发。

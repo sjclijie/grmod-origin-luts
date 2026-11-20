@@ -1,8 +1,8 @@
 # GR Origin LUT Pack
 
-面向理光 GR IV（GR Mod Origin）的胶片模拟 LUT 包：**13 款 `.cube`** + 配套的 **Origin 槽位图标**，以及每款的适用性评估和使用说明。
+面向理光 GR IV（GR Mod Origin）的胶片模拟 LUT 包：**19 款 `.cube`** + 配套的 **Origin 槽位图标**，以及每款的适用性评估和使用说明。
 
-所有 LUT 都由开放的 [GRKit](https://github.com/ahonn/grkit) 源配方**重新拟合**而来，适配到 **GR IV Standard 显示 RGB 输入 → sRGB 输出**，可直接导入 GR Mod Origin 的「影像控制」新增槽位。
+其中 13 款由开放的 [GRKit](https://github.com/ahonn/grkit) 源配方**重新拟合**，适配到 **GR IV Standard 显示 RGB 输入 → sRGB 输出**；另外 6 款为作者收集的公开免费 LUT。全部可直接导入 GR Mod Origin 的「影像控制」新增槽位。
 
 > **这不是理光官方产品。** 名称中的胶片与品牌仅用于说明模拟对象，不代表品牌背书，也不等于真实胶片的实测等效。
 
@@ -10,6 +10,12 @@
 
 | 胶片 | 品牌 | 推荐槽名 | 许可 |
 | --- | --- | --- | --- |
+| Amber | 创意／无品牌 | `Amber` | 未核实（公开免费包） |
+| BW400 | 创意／黑白 | `BW400` | 未核实（公开免费包） |
+| Fade | 创意／无品牌 | `Fade` | 未核实（公开免费包） |
+| Classic Chrome | Fujifilm | `Fuji CC` | 未核实（公开免费包） |
+| Classic Negative | Fujifilm | `Fuji CNeg` | 未核实（公开免费包） |
+| Kodak 5218 → 2395 | Kodak | `Koda 5218` | 未核实（公开免费包） |
 | Eterna 500T | Fujifilm | `Fuji Eterna` | MIT |
 | Pro 400H | Fujifilm | `Fuji Pro400H` | CC BY-SA 4.0 |
 | Superia 400 | Fujifilm | `Fuji Sup400` | CC BY-SA 4.0 |
@@ -29,8 +35,8 @@
 ## 目录结构
 
 ```
-lut/            13 个 .cube（65³ 网格）
-icons/          13 张 216×204 PNG，Origin 槽位图标（选图片 + Plain 纯色，不要用 Film）
+lut/            19 个 .cube（65³ 网格）
+icons/          19 张 216×204 PNG，Origin 槽位图标（选图片 + Plain 纯色，不要用 Film）
 docs/           逐款清单、Origin 适用性复核、来源与许可
 licenses/       上游许可全文与 NOTICE
 manifest.json   名称 / 品牌 / 槽名 / 许可 / SHA-256 / 文件大小
@@ -60,17 +66,23 @@ SHA256SUMS.txt  校验清单
 
 - 11 款：**CC BY-SA 4.0**（源自 [spektrafilm](https://github.com/andreavolpato/spektrafilm) 0.3.4，作者 Andrea Volpato）
 - 2 款：**MIT**（源自 [spectral_film_lut](https://github.com/JanLohse/spectral_film_lut)，作者 Jan Lohse）
+- 6 款：**来源未核实**（公开免费包）
 - 拟合方法来自 [GRKit](https://github.com/ahonn/grkit)（MIT）；本仓库的 LUT 是从其源配方**重建**，不是复制其已发布的拟合参数。
 
 逐款对应见 `manifest.json`，完整声明见 `NOTICE.md` 与 `licenses/`。
 
 **分享修改版时请遵守 CC BY-SA 4.0 的相同方式共享要求并保留署名。**
 
-## 未收录的部分
+## 来源分级
 
-原始素材库还有 6 款更早收集的 LUT（Amber、BW400、Fade、Classic Chrome、Classic Negative、Kodak 5218→2395）。它们的**来源与再分发许可未能确认**，因此**不包含在本仓库中**。
+| 分级 | 数量 | 说明 |
+| --- | --- | --- |
+| GRKit 源配方重建 | 13 | 许可明确：11 款 CC BY-SA 4.0、2 款 MIT |
+| 公开免费 LUT 包 | 6 | Amber、BW400、Fade、Classic Chrome、Classic Negative、Kodak 5218→2395 |
 
-如果你持有这些文件的明确许可，可以自行加入 `lut/` 并在 `manifest.json` 补一条记录。
+后 6 款来自公开免费分发的 LUT 包，**具体上游链接与再分发条款未逐项记录**。它们按「现状」提供，用于个人学习与测试；如果你打算商业使用或再分发，请自行核实原始来源。
+
+如果你是其中某款的原始作者并希望调整署名或移除，请开 issue。
 
 ## 校验
 
@@ -80,4 +92,4 @@ shasum -a 256 -c SHA256SUMS.txt
 
 ## English
 
-A pack of 13 film-emulation `.cube` LUTs for Ricoh GR IV, rebuilt from the open GRKit recipes and adapted to Standard sRGB in / sRGB out, plus 216×204 slot icons for GR Mod Origin. Licences are per file: 11 are CC BY-SA 4.0 (spektrafilm), 2 are MIT (spectral_film_lut). Six older LUTs from the author's collection are excluded because their redistribution rights could not be established. Not affiliated with Ricoh. Film and brand names describe the emulated stock only.
+A pack of 19 film-emulation `.cube` LUTs for Ricoh GR IV, rebuilt from the open GRKit recipes and adapted to Standard sRGB in / sRGB out, plus 216×204 slot icons for GR Mod Origin. Licences are per file: 11 are CC BY-SA 4.0 (spektrafilm), 2 are MIT (spectral_film_lut); 6 come from publicly distributed free LUT packs whose upstream terms are not documented and are provided as-is for personal testing. Not affiliated with Ricoh. Film and brand names describe the emulated stock only.

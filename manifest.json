@@ -1,7 +1,7 @@
 {
   "name": "GR Origin LUT Pack",
   "description": "Film-emulation .cube LUTs rebuilt from open GRKit recipes, adapted for Ricoh GR IV Standard (sRGB in / sRGB out), with GR Mod Origin slot icons.",
-  "count": 13,
+  "count": 19,
   "generatedAt": "2026-11-20",
   "rating": "GR Mod Origin slot labels are recommendations; 1-12 printable ASCII",
   "entries": [
@@ -147,6 +147,72 @@
       "sha256": "007831cc53ec4fa5fb86186b8ba68bdc13756d3816265f28d0d682ab966f51bf",
       "size": 12358468,
       "icon": "vision3-500t-supra-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "Amber.cube",
+      "name": "Amber",
+      "brand": "Creative / unbranded",
+      "slotName": "Amber",
+      "license": "unverified-public",
+      "source": "Publicly distributed free LUT pack, supplied by the repository author; upstream URL and redistribution terms not documented",
+      "sha256": "fd0bce5dc1dd32ac31100feafc34f659894e3482bd3fae69bb61032ddb317947",
+      "size": 970338,
+      "icon": "Amber.png"
+    },
+    {
+      "file": "BW400.cube",
+      "name": "BW400",
+      "brand": "Creative / B&W",
+      "slotName": "BW400",
+      "license": "unverified-public",
+      "source": "Publicly distributed free LUT pack, supplied by the repository author; upstream URL and redistribution terms not documented",
+      "sha256": "70e75ca174c1280ce847ec11ad5c6dbd6cc878e19af4a9118dcf64a6efbbebc4",
+      "size": 103239,
+      "icon": "BW400.png"
+    },
+    {
+      "file": "Fade.cube",
+      "name": "Fade",
+      "brand": "Creative / unbranded",
+      "slotName": "Fade",
+      "license": "unverified-public",
+      "source": "Publicly distributed free LUT pack, supplied by the repository author; upstream URL and redistribution terms not documented",
+      "sha256": "7dfd6ebbf3ab99b29b65c4aaf6c945a06595afe9f66c3bf372092feb66307a60",
+      "size": 970338,
+      "icon": "Fade.png"
+    },
+    {
+      "file": "Fuji-ClassicChrome.cube",
+      "name": "Classic Chrome",
+      "brand": "Fujifilm",
+      "slotName": "Fuji CC",
+      "license": "unverified-public",
+      "source": "Publicly distributed free LUT pack, supplied by the repository author; upstream URL and redistribution terms not documented",
+      "sha256": "8df9dcee99823462077245b97e40969924d34f8cf90ee18553503b6afda6fb6c",
+      "size": 103231,
+      "icon": "Fuji-ClassicChrome.png"
+    },
+    {
+      "file": "Fuji-ClassicNeg.cube",
+      "name": "Classic Negative",
+      "brand": "Fujifilm",
+      "slotName": "Fuji CNeg",
+      "license": "unverified-public",
+      "source": "Publicly distributed free LUT pack, supplied by the repository author; upstream URL and redistribution terms not documented",
+      "sha256": "c8d7b46bb781a968b47da2e95e9cebdc4c4f59eaecd718c1e3fc2be9161de233",
+      "size": 786496,
+      "icon": "Fuji-ClassicNeg.png"
+    },
+    {
+      "file": "Kodak-5218-2395.cube",
+      "name": "Kodak 5218 → 2395",
+      "brand": "Kodak",
+      "slotName": "Koda 5218",
+      "license": "unverified-public",
+      "source": "Publicly distributed free LUT pack, supplied by the repository author; upstream URL and redistribution terms not documented",
+      "sha256": "341a965d5aaec5250dbb2172d8d03bfe28a8d9bdb9515c950b7f61fe7808f158",
+      "size": 219314,
+      "icon": "Kodak-5218-2395.png"
     }
   ]
 }
