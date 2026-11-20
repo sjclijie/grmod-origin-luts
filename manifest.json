@@ -1,0 +1,152 @@
+{
+  "name": "GR Origin LUT Pack",
+  "description": "Film-emulation .cube LUTs rebuilt from open GRKit recipes, adapted for Ricoh GR IV Standard (sRGB in / sRGB out), with GR Mod Origin slot icons.",
+  "count": 13,
+  "generatedAt": "2026-11-20",
+  "rating": "GR Mod Origin slot labels are recommendations; 1-12 printable ASCII",
+  "entries": [
+    {
+      "file": "eterna-500t-3523xd-v1-GRMod-Standard.cube",
+      "name": "Eterna 500T",
+      "brand": "Fujifilm",
+      "slotName": "Fuji Eterna",
+      "license": "MIT",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "b52afb4162f51a1e5e81b43062a37d257825340d5eafdb3bec7564715e6ec5ab",
+      "size": 12358468,
+      "icon": "eterna-500t-3523xd-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "pro-400h-crystal-v1-GRMod-Standard.cube",
+      "name": "Pro 400H",
+      "brand": "Fujifilm",
+      "slotName": "Fuji Pro400H",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "9f5a9198feea746686a78876edbfe04671450dc6cafe4c919f9f837edca63db2",
+      "size": 12358466,
+      "icon": "pro-400h-crystal-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "xtra-400-crystal-v1-GRMod-Standard.cube",
+      "name": "Superia 400",
+      "brand": "Fujifilm",
+      "slotName": "Fuji Sup400",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "b21bcfdbe046a70260bf6c2bf139bc8f3c872ffe325d00e937da54e9a01edd23",
+      "size": 12358466,
+      "icon": "xtra-400-crystal-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "velvia-100-v1-GRMod-Standard.cube",
+      "name": "Velvia 100",
+      "brand": "Fujifilm",
+      "slotName": "Fuji Vel100",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "bef4f874fad58d2c7a45098b40d6165d63dd1ecd633f5953d8627ee242f241fe",
+      "size": 12358460,
+      "icon": "velvia-100-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "aerocolor-iv-v1-GRMod-Standard.cube",
+      "name": "Aerocolor IV",
+      "brand": "Kodak",
+      "slotName": "Koda AeroIV",
+      "license": "MIT",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "ae45fa9a58c6f5e76c65e9e1b575e3423f7cebd8d6eefd14a16d9a016363cdaa",
+      "size": 12358462,
+      "icon": "aerocolor-iv-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "ektachrome-e100-v1-GRMod-Standard.cube",
+      "name": "Ektachrome E100",
+      "brand": "Kodak",
+      "slotName": "Koda E100",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "652824e6a8d5c09bdb2b5888745bf903865ba0bf0496716a5be5955f408cfbb1",
+      "size": 12358465,
+      "icon": "ektachrome-e100-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "ektar-100-edge-v1-GRMod-Standard.cube",
+      "name": "Ektar 100",
+      "brand": "Kodak",
+      "slotName": "Koda Ekt100",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "697b9563515030cdd18fd2b6bf1d61efade47607b82a253759a575bc39be4e72",
+      "size": 12358464,
+      "icon": "ektar-100-edge-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "gold-200-premier-v1-GRMod-Standard.cube",
+      "name": "Gold 200",
+      "brand": "Kodak",
+      "slotName": "Koda Gold200",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "58c13a292f1702f804d6ccbd7f824445386f4515837d7a3eff9b3d0a63645bce",
+      "size": 12358466,
+      "icon": "gold-200-premier-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "kodachrome-64-v1-GRMod-Standard.cube",
+      "name": "Kodachrome 64",
+      "brand": "Kodak",
+      "slotName": "Koda K64",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "332034af36d3b59a98e15f349f049a0d08b9021862f7d07a14f8671e046b5147",
+      "size": 12358463,
+      "icon": "kodachrome-64-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "portra-400-endura-v1-GRMod-Standard.cube",
+      "name": "Portra 400",
+      "brand": "Kodak",
+      "slotName": "Koda P400",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "8416576ca9841144d23df9c29465bd3b440661af52be2fbe978d148a34ce655a",
+      "size": 12358467,
+      "icon": "portra-400-endura-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "portra-800-push2-v1-GRMod-Standard.cube",
+      "name": "Portra 800 +2",
+      "brand": "Kodak",
+      "slotName": "Koda P800P2",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "5e5b57dded183a21b00a65b52f3308f3f626c0cbb0a785bef5fe8b6171013dea",
+      "size": 12358466,
+      "icon": "portra-800-push2-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "vision3-250d-2383-v1-GRMod-Standard.cube",
+      "name": "Vision3 250D",
+      "brand": "Kodak",
+      "slotName": "Koda V3 250D",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "2412fb340266f5d549859b929bbfceb342e357de34683354992b18b8c9c9fe03",
+      "size": 12358467,
+      "icon": "vision3-250d-2383-v1-GRMod-Standard.png"
+    },
+    {
+      "file": "vision3-500t-supra-v1-GRMod-Standard.cube",
+      "name": "Vision3 500T",
+      "brand": "Kodak",
+      "slotName": "Koda V3 500T",
+      "license": "CC-BY-SA-4.0",
+      "source": "GRKit recipe, rebuilt and adapted (Standard sRGB in / sRGB out)",
+      "sha256": "007831cc53ec4fa5fb86186b8ba68bdc13756d3816265f28d0d682ab966f51bf",
+      "size": 12358468,
+      "icon": "vision3-500t-supra-v1-GRMod-Standard.png"
+    }
+  ]
+}
