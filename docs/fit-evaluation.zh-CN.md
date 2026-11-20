@@ -1,5 +1,7 @@
 # 当前20款LUT用于 GR Mod Origin：适用性复核
 
+[English](fit-evaluation.md) | 中文
+
 > **2026-11-16 更新：下方含 Astia 的内容为当时的评估记录，原文保留作历史。`Fuji-Astia.cube` 已于同日从素材库删除**——实测该 LUT 把中灰 0.5 压到约 0.21，肤色绿/蓝通道接近 0，出片呈惨橙色。文中的拟合分数只表示"相机能否还原该 LUT"，不代表该 LUT 本身可用。
 
 
@@ -86,10 +88,7 @@ Portra400/Pro400H/Superia/Gold功能上有重叠，但不是重复配方；电�
 ## 证据与复现
 
 - Origin revision: `12c58a5d26f4fe045ada8bc926726c2c83012b4e`
-- [统一评估结果](../origin-evaluation.json)（包含当前每个LUT的SHA-256和全部误差统计）。
-- [复现脚本](../../analysis/origin-20-review-20261024/review.py)；原始逐点预测与输入保留在工作区 analysis/origin-20-review-20261024/，未复制进本目录。
+- [统一评估结果](origin-evaluation.json)（包含当前每个LUT的SHA-256和全部误差统计）。
+- 复现脚本（`review.py`）不在本仓库内；原始逐点预测与输入保留在工作区 analysis/origin-20-review-20261024/，未复制进本目录。
 - 富士来源文档：[abpy/FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles)。
 
-```bash
-python3 -I analysis/origin-20-review-20261024/review.py
-```

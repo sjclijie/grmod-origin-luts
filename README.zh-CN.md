@@ -54,7 +54,7 @@ SHA256SUMS.txt  校验清单
 
 ## 拟合的接近程度
 
-`docs/Origin适用性复核.md` 列出了每一款的 ΔE00。
+`docs/fit-evaluation.zh-CN.md` 列出了每一款的 ΔE00，`docs/lut-list.zh-CN.md` 有带来源的完整清单。
 
 灰阶和肤色比高饱和色更接近。Gold、Ektar、Velvia、Superia 偏差明显更大，当风格看更合适。
 

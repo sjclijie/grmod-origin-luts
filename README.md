@@ -54,7 +54,7 @@ The LUTs are ordinary sRGB-to-sRGB 3D LUTs, so they also open in DaVinci Resolve
 
 ## How close the fits come out
 
-`docs/Origin适用性复核.md` lists ΔE00 for every LUT.
+`docs/fit-evaluation.md` lists ΔE00 for every LUT; `docs/lut-list.md` has the full table with sources.
 
 Greys and skin tones come out closer than saturated colours. Gold, Ektar, Velvia and Superia sit further off; use them for the look.
 
