@@ -2,7 +2,7 @@
 
 19 款胶片模拟 `.cube` 与配套槽位图标，为理光 GR IV 制作。可在 GR Mod Origin 使用，也能在任何支持 `.cube` 的软件里打开。
 
-理光与各胶片厂商都没有参与这个项目。每款文件模仿一种胶片的外观，结果是风格近似，不复刻胶片本身，也不复刻机内模拟。
+理光与各胶片厂商都没有参与这个项目。每款文件模仿一种胶片的外观，结果是近似风格，不等于胶片本身或机内模拟。
 
 [English](README.md) | 中文
 
@@ -52,11 +52,11 @@ SHA256SUMS.txt  校验清单
 
 这些是普通的 sRGB 互转 3D LUT，所以也能在 DaVinci Resolve、Affinity Photo、Capture One 里打开。只有 `icons/` 是给 GR Mod 用的。
 
-## 拟合到底有多接近
+## 拟合的接近程度
 
 `docs/Origin适用性复核.md` 列出了每一款的 ΔE00。
 
-灰阶和肤色比高饱和色更接近。Gold、Ektar、Velvia、Superia 偏差明显更大，适合当风格用。
+灰阶和肤色比高饱和色更接近。Gold、Ektar、Velvia、Superia 偏差明显更大，当风格看更合适。
 
 这些数字来自颜色模型的评估，没有测量相机成片，也没有生成或验证固件。仓库里没有固件和刷写工具。
 
@@ -70,7 +70,7 @@ SHA256SUMS.txt  校验清单
 | MIT | 2 款：Aerocolor IV、Eterna 500T |
 | 无 | 6 款：Amber、BW400、Fade、Classic Chrome、Classic Negative、Kodak 5218→2395 |
 
-13 款许可明确的 LUT 由 [GRKit](https://github.com/ahonn/grkit) 开源源配方重新拟合（MIT），并适配 Standard sRGB 输入。spektrafilm 的 LUT 由 Andrea Volpato 制作（CC BY-SA 4.0），spectral_film_lut 由 Jan Lohse 制作（MIT）。许可全文与署名见 `NOTICE.md` 和 `licenses/`。
+许可明确的是 13 款，由 [GRKit](https://github.com/ahonn/grkit) 开源源配方重新拟合（MIT），并适配 Standard sRGB 输入。spektrafilm 的 LUT 由 Andrea Volpato 制作（CC BY-SA 4.0），spectral_film_lut 由 Jan Lohse 制作（MIT）。许可全文与署名见 `NOTICE.md` 和 `licenses/`。
 
 另外 6 款来自作者收集的公开免费 LUT 包，没有附许可声明，上游链接也没有记录在仓库里。它们按原样提供，供个人学习与测试；商用或再分发之前，请先确认原始来源。
 
